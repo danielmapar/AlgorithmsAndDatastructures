@@ -8,16 +8,16 @@
 * O ( Algebraic expression )
 * Example: `O(n), O(log(n)), O(1) -- O(On + 1), O(n^2)`
 
-* Example:
-* ```python
-function decode(input):
-  create output string O(1)
-  O(n*3)
-  for each letters in input: O(1)
-    get new_letter from letter location in cipher O(1)
-    add new_letter to output O(1)
-  return output O(1)
-```
+* Example: 
+  ```python
+  function decode(input):
+    create output string O(1)
+    O(n*3)
+    for each letters in input: O(1)
+      get new_letter from letter location in cipher O(1)
+      add new_letter to output O(1)
+    return output O(1)
+  ```
 
 * Final complexity: `O(2 + 3n)`
   * If we had 10 letters (n = 10), the calculation would be `O(2 + 3*10)` => `O(32)`
