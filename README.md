@@ -123,7 +123,7 @@ def example4(manatees):
   * Each elements has some notion of what the next element is since they are connected to it
   * Adding and removing elements from an array is complicated, but those operations are much easier in a linked list
   * A linked list contains a `next` property that is basically a pointer to the next element (to its address in memory)
-    * That being said, both insertion and deletion will run in constant time `O(n)` since we are just shifting pointers.
+    * That being said, both insertion and deletion will run in constant time `O(1)` since we are just shifting pointers.
   * ![Linked List](./images/linked_list.png)
   * Their is also something called a doubled Linked list, where we have pointers for the `next` and `previous` object. In this case we can traverse the list in both directions now
   * ![Linked List](./images/linked_list_1.png)
