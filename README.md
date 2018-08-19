@@ -8,9 +8,7 @@
 * O ( Algebraic expression )
 * Example: `O(n), O(log(n)), O(1) -- O(On + 1), O(n^2)`
 
-
 * Example:
-
 * ```python
 function decode(input):
   create output string O(1)
@@ -128,4 +126,4 @@ def example4(manatees):
     * That being said, both insertion and deletion will run in constant time `O(n)` since we are just shifting pointers.
   * ![Linked List](./images/linked_list.png)
   * Their is also something called a doubled Linked list, where we have pointers for the `next` and `previous` object. In this case we can traverse the list in both directions now
-  * ![Linked List](./images/linked_list_1.png) 
+  * ![Linked List](./images/linked_list_1.png)
