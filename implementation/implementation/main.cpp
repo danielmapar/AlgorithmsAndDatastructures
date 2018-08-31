@@ -7,16 +7,13 @@
 //
 
 #include <iostream>
-#include "DoubleLinkedList/List.hpp"
+#include "Stack/Stack.hpp"
 
 int main(int argc, const char * argv[]) {
     // Select the alg you want to run
-    DoubleList::List list;
-    list.add("Test");
-    list.add("Test2");
-    list.add("Test3");
-    list.add("Daniel");
-    
-    std::cout << list << std::endl;
+    Stack::Stack stack;
+    for (int i = 0; i < 1000; i++) {
+        stack.push("Test " + std::to_string(i));
+    }
     return 0;
 }
